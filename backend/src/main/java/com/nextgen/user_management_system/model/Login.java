@@ -22,20 +22,7 @@ public class Login{
     @Id
     private String emailId;
 
-    @NotNull
     private String password;
 
-    @NotNull
     private String role;
-
-
-//    @Override
-//    public Collection<? extends GrantedAuthority> getAuthorities() {
-//        return List.of(new SimpleGrantedAuthority(role));
-//    }
-//
-//    @Override
-//    public String getUsername() {
-//        return emailId;
-//    }
 }

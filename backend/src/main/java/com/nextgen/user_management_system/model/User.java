@@ -27,7 +27,7 @@ public class User {
     private String password;
 
     @Column(name = "phone_no")
-    private long phoneNo;
+    private String phoneNo;
 
     private String interests;
 

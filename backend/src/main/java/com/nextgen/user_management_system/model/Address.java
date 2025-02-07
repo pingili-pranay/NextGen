@@ -16,10 +16,8 @@ public class Address {
     @Column(name = "address_id")
     private Integer id;
 
-    @NotNull
     private String address;
 
-    @NotNull
     @Column(name = "address_type")
     private String addressType;
 

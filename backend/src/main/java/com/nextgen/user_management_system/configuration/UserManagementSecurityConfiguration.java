@@ -40,7 +40,7 @@ public class UserManagementSecurityConfiguration {
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(
                         request -> request.requestMatchers("/register", "/login").permitAll()
-                                .requestMatchers("/verify").hasAuthority("SCOPE_USER")
+                                .requestMatchers("/verify").hasAuthority("SCOPE_ADMIN")
                                 .anyRequest().authenticated()
                 )
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
