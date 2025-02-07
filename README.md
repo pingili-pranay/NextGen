@@ -1,2 +1,2 @@
 # NextGen
-A User Managment Application for NextGen
+A User Managment Application
